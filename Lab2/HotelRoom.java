@@ -1,12 +1,9 @@
 public class HotelRoom {
     public int roomNumber;
     private String roomType;
-
     private int vacant = 0;
     private int occupied = 1;
     private double rate;
-
-    private boolean Occ;
 
     public HotelRoom() { 
         setRoomNumber(0);
@@ -23,29 +20,15 @@ public class HotelRoom {
     }
 
 
+    //Setter RoomNum
     public void setRoomNum(int number) {
         roomNumber = number;
-
-        //roomA = occupied;
-        //rate = 100.0;
     }
 
-
-    public void setroomNum(int roomB) {
-        setRoomNumber(201);
-        setRoomType("Double bed.");
-
-        //roomB = vacant;
-        //rate = 80.0;
-    }
-
-   
-
-    //Setter
+    //Setter RoomType
     public void setRoomType(String RoomType) {
         this.roomType = RoomType;
     }
-
 
     //Setter
     public void setRoomNumber(int roomNumber) {
@@ -53,12 +36,11 @@ public class HotelRoom {
     } 
 
 
-   
+
     //Getter
     public int getRoomNumber() {
         return roomNumber;
     }
-
 
      //Getter
      public String getRoomType() {
@@ -67,72 +49,59 @@ public class HotelRoom {
 
 
 
+     //Rate Setter
+     public void setRate(double Rate) {
+        this.rate = rate;
+    }
 
-
-
-
-
-
-   
-    
-
-    //Rate setter
+    //Rate Getter
     public double getRate(double Rate) {
         return Rate;
     }
 
 
-    public void setRate(double Rate) {
-        this.rate = rate;
-    }
-
-
-
-
-    //Occupied setter
-    public int getOccupied(int occupied) {
-        return occupied;
-    }
-
+    //Setter
     public void setOccupied(int occupied) {
         this.occupied = occupied;
     }
 
-
-
-    //Vacant setter
-    public int getVacant(int Vacant) {
-        return Vacant;
+    //Getter
+    public int getOccupied(int occupied) {
+        return occupied;
     }
 
+
+    //Setter 
     public void setVacant(int Vacant) {
         this.vacant = vacant;
     }
 
 
+    //Getter
+    public int getVacant(int Vacant) {
+        return Vacant;
+    }
 
-
+    
     //Setter
     public void setisOccupied(int occupied) {
         this.occupied = occupied;
     }
-
 
     //Getter
     public int getisOccupied(int occupied) {
         return occupied;
     } 
 
-   /*  
-    if(getisOccupied == getVacant) {
-        getOccupied(occupied);
-        System.out.println("True");
-    }
-    else {
-        getVacant(vacant);
-        System.out.println("False");
-    } 
-    
-    */
 
-}//}
+
+
+    public boolean isOccupied() {
+        if(occupied == 1) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+}
