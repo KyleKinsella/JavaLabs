@@ -1,8 +1,8 @@
 public class Bank {
     public static void main(String[] args) {
-        BankCustomer Customer1 = new BankCustomer();
+        BankCustomer BankCustomer = new BankCustomer();
 
-        System.out.println(Customer1.getBalance());
+        System.out.println(BankCustomer.getBalance());
         }
     }
     
