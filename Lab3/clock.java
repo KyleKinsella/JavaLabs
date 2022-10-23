@@ -10,14 +10,10 @@ public class clock {
 
   
     for(i=0; i<1000; i++) {
-    System.out.print("Current time in milliseconds = ");
-    System.out.println(System.currentTimeMillis());
-    //System.currentTimeMillis();
-
-
+      t.tick();
+      System.out.print("Current time in milliseconds = ");
+      System.out.println(System.currentTimeMillis());
     }
-
-    
    }
 }
 

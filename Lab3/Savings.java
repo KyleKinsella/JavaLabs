@@ -1,13 +1,8 @@
 public class Savings {
     public static void main(String[] args) {
         SavingsAccount saver1 = new SavingsAccount();
-        //saver1.getSavingsBalanceSaver1();
-        //saver1.getAnnualInterestRate();
-
         SavingsAccount saver2 = new SavingsAccount();
-        //saver2.setSavingBalanceSaver2(3000);
 
-        
 
         System.out.println("Saver1 -> Your unique number is: " + saver1.getunique_NumberSaver1());
         System.out.println(saver1.toStringSaver1());
@@ -38,8 +33,6 @@ public class Savings {
         saver2.getAnnualInterestRate();
         
       
-
-
         System.out.println("--------------------------------------------------------");
        
         System.out.println("Your new balance is " + saver1.getSavingsBalanceSaver1());

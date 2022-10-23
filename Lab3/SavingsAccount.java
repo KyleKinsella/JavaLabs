@@ -6,50 +6,29 @@ public class SavingsAccount {
     static double annualIntrestRate;
     private double SavingsBalance1;
     private double SavingsBalance2;
-
     private int AccountNum1;
     private int AccountNum2;
-
     private double intrestRate;
-
     private double calculateIntrestRateSaver1;
     private double calculateIntrestRateSaver2;
-
-
     private double calculate;
     private double add;
-    private double modify_Intrest_Rate;
+    static double modify_Intrest_Rate;
 
-    //private int account_Numbers;
 
     public SavingsAccount() {
         getunique_NumberSaver1();
         getunique_NumberSaver2();
     }
         
-        /*
-        getSavingsBalanceSaver1();
-        getSavingsBalanceSaver2();
-
-        getAccountNum1();
-        getAccountNum2();
-
-        getCalculateIntrestRateSaver1();
-        getCalculateIntrestRateSaver2();
-        getmodifyInterestRate();
-        */
-    //}
-
 
     public void setUnique_NumberSaver1(int unique_Number1) {
         this.unique_Number1 = unique_Number1;
     }
 
     public int getunique_NumberSaver1() {
-
         setUnique_NumberSaver1(1000);
-        //unique_Number1++;
-
+        
         return unique_Number1;
     }
 
@@ -69,9 +48,7 @@ public class SavingsAccount {
     }
 
     public int getunique_NumberSaver2() {
-
         setunique_NumberSaver2(2000);
-        //unique_Number2++;
 
         return unique_Number2;
     }
@@ -111,8 +88,7 @@ public class SavingsAccount {
     }
 
 
-
-
+    
     public void setAnnualInterestRate(double intrestRate) {
         this.intrestRate = intrestRate;
     }

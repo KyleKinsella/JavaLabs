@@ -5,8 +5,8 @@ public class BankCustomer {
     private String name;
     private String address;
     private int SavAccounts;
-    //private int addAccount;
     private int balance;
+
 
     public BankCustomer() {
         
@@ -56,6 +56,13 @@ public class BankCustomer {
 
         System.out.println("---------------------------------");
 
+        System.out.println("You have this much in your First Savings account " + first_Sav_Account);
+        System.out.println("You have this much in your Second Savings account " + second_Sav_Account);
+        System.out.println("You have this much in your Third Savings account " + third_Sav_Account);
+
+        System.out.println("---------------------------------");
+        
+        System.out.println("Your total Savings is:");
         return addUp;
     }
 }
