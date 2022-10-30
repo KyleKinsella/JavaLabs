@@ -43,11 +43,11 @@ public class MyHr {
             {
                 for(i=1; i<6; i++) {
 
-                System.out.println("---------------------------");
+                //System.out.println("---------------------------");
                 
-                System.out.println("Enter some information into the employee record:");
+                System.out.println("Enter some information into the employee record" + " " + i);
 
-                System.out.println("---------------------------");
+                //System.out.println("---------------------------");
 
                 Scanner input = new Scanner(System.in);
                 
@@ -72,10 +72,12 @@ public class MyHr {
                 System.out.println(one);
                 System.out.println(two);
                 System.out.println(three);
+
+                System.out.println(office.getAssigned());
                 System.out.println("----------------------------------------------------------------------");
 
                 
-                System.out.println(office.getAssigned());
+                
             }
             }
             if(counter == 3) 
