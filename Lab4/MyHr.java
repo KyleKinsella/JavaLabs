@@ -43,11 +43,7 @@ public class MyHr {
             {
                 for(i=1; i<6; i++) {
 
-                //System.out.println("---------------------------");
-                
                 System.out.println("Enter some information into the employee record" + " " + i);
-
-                //System.out.println("---------------------------");
 
                 Scanner input = new Scanner(System.in);
                 
@@ -63,8 +59,7 @@ public class MyHr {
 
                 three = emp.toStringCar();
                 
-
-                    
+                
                 System.out.println("----------------------------------------------------------------------");
                 System.out.println("Employee Record -> " + i + " :");
 
