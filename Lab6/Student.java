@@ -37,13 +37,6 @@ public class Student extends Person{
         return numOfCources;
     }
 
-   public void loop() {
-       int i;
-       for(i=0;i<courses.length; i++) {
-           
-       }
-   }
-
     public String toString() {
         return "Student: " + getName() + " <" + getAddress() + ">" + courses + " " + grades;
     }
